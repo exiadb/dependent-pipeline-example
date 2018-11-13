@@ -7,6 +7,6 @@ steps:
     branches: "master"
     async: true
     build:
-      commit: "{$BUILDKITE_COMMIT}"
-      branch: "{$BUILDKITE_BRANCH}"
-      message: "{$BUILDKITE_MESSAGE}"
+      commit: "${BUILDKITE_COMMIT}"
+      branch: "${BUILDKITE_BRANCH}"
+      message: "${BUILDKITE_MESSAGE}"
